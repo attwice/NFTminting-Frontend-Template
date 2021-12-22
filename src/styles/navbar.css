@@ -1,0 +1,121 @@
+.cus-nav-link {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'Roboto';
+  display: flex;
+  align-items: center;
+}
+
+.header.sticky {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 91;
+}
+
+.header.sticky .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0px 6px 13px 0px rgb(0 0 0 / 6%);
+  opacity: 0;
+  -webkit-animation: fadeInDown .95s ease-in-out 0s 1 normal none running;
+  animation: fadeInDown .95s ease-in-out 0s 1 normal none running;
+  -webkit-transition: all .3s cubic-bezier(.645,.045,.355,1);
+  transition: all .3s cubic-bezier(.645,.045,.355,1);
+  opacity: 1;
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+}
+
+.navbar-toggler-icon {
+  width: 1em;
+  height: 1em;
+}
+
+.navbar {
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+
+.logo-img {
+  width: 48px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: RGBA(0, 0, 0, 0.95);
+}
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+  color: #000000;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: RGBA(0, 0, 0, 0.75);
+}
+
+@media (max-width: 768px) {
+  .navbar-nav .nav-link {
+    padding-left: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .logo-img {
+    width: 60px;
+  } 
+
+  .social-link {
+    flex-grow: 1;
+    justify-content: flex-end;
+  }
+
+  .cus-nav-link {
+    font-size: 1.5em;   
+  }  
+}
+
+@media (min-width: 992px) {
+  .logo-img {
+    width: 64px;
+  } 
+
+  .cus-nav-link {
+    font-size: 2em;
+  }
+
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .logo-img {
+    width: 68px;
+  }   
+
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .logo-img {
+    width: 72px;
+  } 
+
+  .cus-nav-link {
+    font-size: 36px;
+  }
+
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}
+

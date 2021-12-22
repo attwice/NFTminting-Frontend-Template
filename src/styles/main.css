@@ -1,0 +1,470 @@
+.purple-text {
+  font-weight: 400;
+  font-family: 'Purple Purse'; 
+}
+
+.animation-header, .mint-header, .roadmap-header, .faq-header {
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  font-size: 2em;
+  background-color: #ADFF99;  
+}
+
+.banner {
+  /* display: flex;
+  justify-content: center;
+  background-color: #636363;  
+  padding: 2em 0;   */
+}
+
+.banner img {
+  /* max-width: 600px;
+  width: 100%; */
+  width: 100%;
+}
+
+.gallery {
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+}
+
+.gallery-img img {
+  width: 180px;
+  height: 180px;
+}
+
+.mint-header, .roadmap-header, .faq-header {
+  background: none;
+}
+
+.mint-panel, .roadmap-panel {
+  padding-left: 1em;
+  padding-right: 1em;
+  background-color: #FFFFFF;
+  margin-left: 1em;
+  margin-right: 1em;  
+  border-radius: 1.5em;
+  border: 1px solid #000000;
+}
+
+.mint-title, .mint-narration, .collage, .mint-price {
+  font-size: 1.5em;   
+  margin: 0 auto;
+}
+
+.mint-title, .mint-narration {
+  max-width: 600px;
+}
+
+.mint-narration {
+  font-size: 18px;  
+}
+
+.collage {
+  width: 150px;
+  height: 150px;
+  /* background-color: #C4C4C4;
+  padding-top: 32px;
+  padding-left: 20px; */
+  margin-top: 12px;
+  margin-bottom: 12px;  
+}
+
+.mint-price {
+  font-size: 14px;
+  width: 140px;  
+}
+
+.video-container {
+  padding-top: 2em;
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  background-color: #F6F6F6;
+}
+
+.video-board {
+  width: 90%;
+  padding-bottom: 2em;
+}
+
+.mint-container {
+  background-color: #BEFFFB;
+  padding-bottom: 4.5em;
+}
+
+.connect-btn, .mint-btn {
+  background-color: #BEFFFB;
+  border-radius: 1.5em;
+  padding: 0.5em 0.5em;
+  font-weight: 400;
+  font-size: 1em;
+  font-family: 'Purple Purse';
+  border: none;
+  color: #000000;
+}
+
+.mint-btn {
+  border-radius: 2rem;
+  padding: 1em 1.75rem;
+}
+
+.connect-btn:hover, .mint-btn:hover, .connect-btn:focus, .mint-btn:focus {
+  color: #FFFFFF;
+  background-color: blueviolet;
+  border: none;
+}
+
+.mint-status {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-weight: 400;
+  font-family: 'Purple Purse';
+  font-size: 1em;
+}
+
+.roadmap-container {
+  background-color: #FFD88C;
+  padding-bottom: 2em;
+}
+
+.faq-container {
+  background-color: #f692ff;
+  padding-bottom: 2em;
+}
+
+.roadmap-title {
+  font-size: 1.4em;
+}
+
+.roadmap-text-height {
+  height: 160px;
+  overflow: hidden;
+}
+
+.roadmap-text {
+  font-size: 0.9em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
+}
+
+.roadmap-text1 {
+  font-size: 1.5em;
+}
+
+.roadmap-text2 {
+  font-size: 1.2em;
+}
+
+.faq-text {
+  font-size: 1em;
+}
+
+.modal-content {
+  background: #121212;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.sr-only {
+  position: absolute;
+  clip: rect(0,0,0,0);
+}
+
+.modal-header button {
+  background-color: transparent;
+  border: none;
+}
+
+.modal-header button span {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.modal-body {
+  text-align: center;
+}
+
+.modal-footer button {
+  border-radius: 24px !important;
+  background-color: transparent;
+  border: 2px solid #ff4cb5 !important;
+  padding: 9px 35px;
+  font-size: 0.9rem;
+}
+
+.modal-footer button:hover {
+  background-color: #ff4cb5;
+}
+
+.modal-footer .btn:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background-color: transparent;
+}
+
+.mint-number {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.mint-number button {
+  background-color: transparent;
+  color: #fff;
+  font-size: 3rem;
+  border: none;
+}
+
+.mint-number label {
+  font-size: 3rem;
+}
+
+@media (min-width: 360px) {
+  .gallery {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 576px) {
+  .mint-panel, .roadmap-panel {
+    margin-left: 3em;
+    margin-right: 3em;
+    padding-left: 3em;
+    padding-right: 3em;
+    border-radius: 2em;
+    border-width: 2px;
+  }
+
+  .roadmap-panel {
+    padding: 0;
+  }
+
+  .roadmap-title {
+    font-size: 1.75em;
+  }
+
+  .roadmap-text {
+    font-size: 1.2em;
+  }
+
+  .roadmap-text1 {
+    font-size: 2em;
+  }
+
+  .roadmap-text2 {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 768px) {
+  .animation-header, .mint-header, .roadmap-header, .faq-header {    
+    font-size: 3em;
+  }
+
+  .video-container {
+    flex-direction: row; 
+    justify-content: space-around;
+  }
+
+  .video-board {
+    width: 45%;
+  }
+
+  .mint-container {
+    padding-bottom: 6.5em;
+  }
+
+  .mint-title {
+    font-size: 2em;
+  }
+
+  .mint-narration {
+    font-size: 1.25em;
+  }
+
+  .collage {
+    font-size: 1.75em;
+    padding-left: 0.3em;
+  }
+
+  .mint-price {
+    font-size: 1em;
+  }
+
+  .mint-panel, .roadmap-panel {
+    margin-left: 5em;
+    margin-right: 5em;
+    border-radius: 2.5em;
+    border-width: 3px;
+  }
+
+  .roadmap-panel {
+    margin-left: 8em;
+    margin-right: 8em;
+  }
+
+  .roadmap-title {
+    font-size: 2em;
+  }
+
+  .connect-btn {
+    font-size: 1.5em;
+    padding: 0.6em 0.5em;
+    border-radius: 2.3em;
+  }
+
+  .mint-btn {
+    font-size: 1.5em;
+    padding: 0.75em 2em;
+    border-radius: 2.5em;
+  }
+
+  .faq-text {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 992px) {
+  .animation-header, .mint-header, .roadmap-header, .faq-header {
+    font-size: 3.5em;
+  }
+
+  .mint-container {
+    padding-bottom: 7.5em;
+  }
+
+  .mint-panel, .roadmap-panel {
+    margin-left: 7.5em;
+    margin-right: 7.5em;
+    border-radius: 3em;
+    border-width: 4px;    
+  } 
+
+  .roadmap-panel {
+    margin-left: 10em;
+    margin-right: 10em;
+  }
+  
+  .connect-btn {
+    font-size: 2em;
+    padding: 0.3em 0.5em;
+    border-radius: 2.5em;
+  }
+
+  .mint-btn {
+    font-size: 2em;
+    padding: 0.5em 1.5em;
+    border-radius: 2.75em;
+  }
+
+  .mint-status {
+    font-size: 1.5em;
+  }
+
+  .roadmap-title {
+    font-size: 3em;
+  }
+
+  .roadmap-text-height {
+    height: 180px;
+  }
+
+  .roadmap-text {
+    font-size: 1.5em;
+  }
+
+  .roadmap-text2 {
+    font-size: 2em;
+  }
+
+  .roadmap-text1 {
+    font-size: 3em;
+  }
+
+  .faq-text {
+    font-size: 1.7em;
+  }
+}
+
+@media (min-width: 1200px) {
+  .animation-header, .mint-header, .roadmap-header, .faq-header {
+    font-size: 4em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+  } 
+
+  .mint-container {
+    padding-bottom: 7.9em;
+  }
+
+  .mint-panel, .roadmap-panel {
+    margin-left: 10em;
+    margin-right: 10em;
+    border-radius: 4em;
+    border-width: 5px;
+  } 
+
+  .roadmap-panel {
+    margin-left: 15em;
+    margin-right: 15em;
+  }
+
+  .connect-btn {
+    font-size: 2.25em;
+    padding: 0.3em 0.5em;
+    border-radius: 2.6em;
+  }
+
+  .mint-btn {
+    font-size: 2.25em;
+    padding: 0.5em 1.5em;
+    border-radius: 2.8em;
+  }
+
+  .roadmap-title {
+    font-size: 3.75em;
+  }
+
+  .roadmap-text2 {
+    font-size: 2em;
+  } 
+
+  .roadmap-text1 {
+    font-size: 3.6em;
+  } 
+}
+
+@media (min-width: 1400px) {
+  .animation-header, .mint-header, .roadmap-header, .faq-header {
+    font-size: 4.5em;
+  }  
+
+  .mint-container {
+    padding-bottom: 8.9em;
+  }
+
+  .mint-panel {
+    margin-left: 15em;
+    margin-right: 15em;
+  } 
+
+  .roadmap-panel {
+    margin-left: 20em;
+    margin-right: 20em;
+  }
+
+  .roadmap-title {
+    font-size: 4.5em;
+  }  
+  
+  .roadmap-text2 {
+    font-size: 2.2em;
+  } 
+
+  .roadmap-text1 {
+    font-size: 4em;
+  } 
+}
